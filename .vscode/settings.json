@@ -1,0 +1,33 @@
+{
+  "editor.cursorStyle": "block",
+  "editor.minimap.enabled": false,
+
+  // Oxc formatter settings
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.format.oxc": "always",
+    "source.fixAll.oxc": "always"
+  },
+  "editor.formatOnSaveMode": "file",
+
+  // language specific settings
+  "[css]": {},
+  "[java]": {},
+  "[javascript]": {},
+  "[json]": {},
+  "[html]": {},
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.snippetSuggestions": "top"
+  },
+  "[php]": {},
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {}
+}

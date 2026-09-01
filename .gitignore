@@ -1,0 +1,13 @@
+# macOS-specific files
+.DS_Store
+
+# environment variables
+.env
+.env.production
+.env.development
+
+# dependencies
+*.log
+.pnpm-store
+.vite
+node_modules

@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Counter from '../components/Counter.svelte';
+---
+
+<Layout title="Minha Aplicação Astro + Svelte">
+  <main class="flex flex-col items-center justify-center p-8">
+    <h1 class="text-4xl font-bold text-sky-400 mb-6">
+      Astro + Tailwind + Svelte
+    </h1>
+    <div class="p-6 bg-slate-800 rounded-xl border border-slate-700 shadow-xl">
+      <Counter client:load />
+    </div>
+  </main>
+</Layout>
