@@ -29,5 +29,17 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "[typescript]": {}
+  "[typescript]": {},
+
+  // Todo Tree settings
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/vendor/**",
+    "**/*.min.css",
+    "**/*.min.js",
+    "**/*.log",
+    "**/frontend/AGENTS.md"
+  ]
 }
